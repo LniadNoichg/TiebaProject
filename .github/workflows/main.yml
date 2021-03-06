@@ -26,7 +26,7 @@ jobs:
     - name: START
       run: echo START
     
-    - name: Install docker-compose
+    - name: Install docker-compose 
       run: sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
       
     - name: Docker-compose chmod
